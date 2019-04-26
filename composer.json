@@ -1,0 +1,20 @@
+{
+  	"name": "thomasphansen/phpvault",
+  	"description": "A simple wrapper for Paragon Halite cryptography library",
+  	"minimum-stability": "stable",
+  	"license": "LGPL v3",
+	"autoload": {
+		"psr-4": {
+			"THansen\\PhpVault\\": "src"
+		}
+	},
+  	"require-dev": {
+  	  	"phpunit/phpunit": "^8.0.0",
+		"ext-mbstring": "*",
+		"ext-intl": "*"
+	},
+  	"require": {
+		"php": "^7.2",
+  	  	"paragonie/halite": "^v4.5.3"
+  	}
+}
